@@ -38,4 +38,15 @@ header{
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
+
+}
+.scroll__down{
+    position: absolute;
+    bottom: 5rem;
+    right: -2.3rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 300;
+    transform: rotate(90deg);
 }
