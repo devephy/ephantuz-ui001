@@ -32,6 +32,12 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--color-white);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
 }
 .container{
     width: var(--container-width-lg);
@@ -46,6 +52,7 @@ h1{
 }
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 section > h2, section > h5{
     text-align: center;
