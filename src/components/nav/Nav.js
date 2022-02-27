@@ -13,9 +13,9 @@ export default function Nav() {
     <nav className="">
       <a href="#" onClick={()=> setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><GoHome/></a>
       <a href="#about" onClick={()=> setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><FaUserAlt/></a>
-      <a href="#"><BiBook/></a>
-      <a href="#"><RiServiceLine/></a>
-      <a href="#"><AiOutlineMessage/></a>
+      <a href="#experience" onClick={()=> setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
+      <a href="#services" onClick={()=> setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>
+      <a href="#contact" onClick={()=> setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMessage/></a>
     </nav>
   )
 }
